@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
+      "@resources/*": ["./*"],
       "@common/*": ["./src/common/*"],
       "@main/*": ["./src/main/*"],
       "@preload/*": ["./src/preload/*"],

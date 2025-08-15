@@ -8,7 +8,7 @@ import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 const alias = {
   // 根目录
-  '@': resolve('./'),
+  '@resources': resolve('./'),
   // 共有
   '@common': resolve('src/common'),
   // 主进程

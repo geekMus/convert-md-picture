@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import axios from 'axios'
 import dayjs from 'dayjs'
-import { TaskStatus, MainToRendererEvent, TaskErrorEnum } from '@/src/common/const'
+import { TaskStatus, MainToRendererEvent, TaskErrorEnum } from '@resources/src/common/const'
 
 /** 发送进度事件 */
 const reportProgress = (event, status, params) => {

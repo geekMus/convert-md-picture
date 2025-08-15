@@ -5,9 +5,9 @@ import {
     closeWindow,
     minimizeWindow,
     openFolder
-} from '@/src/main/utils'
+} from '@resources/src/main/utils'
 import { uploadTask } from '@main/services/uploadTask'
-import { RendererToMainEvent } from '@/src/common/const'
+import { RendererToMainEvent } from '@resources/src/common/const'
 
 const setupIPC = () => {
     // Close app

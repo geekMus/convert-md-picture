@@ -21,7 +21,7 @@
 import { onMounted, ref } from 'vue'
 import { v4 as uuidV4 } from 'uuid'
 import Task from '@renderer/components/Task.vue'
-import { TaskStatus } from '@/src/common/const'
+import { TaskStatus } from '@resources/src/common/const'
 
 const fileList = ref([])
 
