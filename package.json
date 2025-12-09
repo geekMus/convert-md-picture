@@ -4,7 +4,7 @@
     "description": "基于 Electron 和 picgo 的批量上传 MarkDown 文档中本地图到图床的自动化工具",
     "productName": "ConvertMdPicture",
     "main": "./out/main/index.js",
-    "author": "YiiMus",
+    "author": "geekMus",
     "homepage": "https://github.com/YiiMus/convert-md-picture",
     "scripts": {
         "format": "prettier --write .",
